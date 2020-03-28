@@ -1,4 +1,4 @@
-echo "\nInitializing bluetooth...\n"
+echo "Initializing bluetooth..."
 
 sudo service bluetooth restart
 sleep 1
@@ -13,6 +13,6 @@ sudo hciconfig -a
 
 sudo hciconfig hci0 piscan
 
-echo "\nDSLR Controller is launching!\n"
+echo "DSLR Controller is launching!"
 
 sudo python3 /home/pi/DSLRController.py

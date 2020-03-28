@@ -75,13 +75,12 @@ print("Killing gphoto2 process...")
 killgphoto2Process()
 print("gphoto2 process killed!\n")
 
+# Bluetooth init
+cs,ss = btConnection()
+
 print("Initializing Memory Card...")
 gp(initMemoryCard)
 print("Memory Card initialized!\n")
-
-
-# Bluetooth init
-cs,ss = btConnection()
 
 # Main program
 instruction = ''
