@@ -26,9 +26,9 @@ Future features :
 
 - Timelapse mode
 
-? Autofocus or adjust manually focus
+- (?) Autofocus or adjust manually focus
 
-? Preview mode
+- (?) Preview mode
 
 
 		/// INSTALLATION \\\
